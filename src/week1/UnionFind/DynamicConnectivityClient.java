@@ -1,4 +1,4 @@
-package week1;
+package week1.UnionFind;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,5 +23,6 @@ public class DynamicConnectivityClient {
 				System.out.println(p+" "+q);
 			}
 		}
+		uf.print();
 	}
 }
