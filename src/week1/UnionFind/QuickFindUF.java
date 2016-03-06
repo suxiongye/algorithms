@@ -6,12 +6,12 @@ package week1.UnionFind;
  * @author Administrator
  *
  */
-public class UF {
+public class QuickFindUF {
 	private int[] nodes;
 	private int length;
 
 	// 构造函数
-	public UF(int n) {
+	public QuickFindUF(int n) {
 		// 初始化数组，每个节点有不同的id
 		nodes = new int[n];
 		length = n;
